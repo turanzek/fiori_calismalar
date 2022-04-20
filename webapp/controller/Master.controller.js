@@ -12,7 +12,7 @@ sap.ui.define([
 ], function (BaseController, JSONModel, Filter, FilterOperator, Sorter, GroupHeaderListItem, Device, Fragment, formatter, DateFormat) {
 	"use strict";
 
-	return BaseController.extend("sap.ui.demo.orderbrowser.controller.Master", {
+	return BaseController.extend("int.training.rezervation.controller.Master", {
 
 		formatter: formatter,
 
@@ -176,7 +176,7 @@ sap.ui.define([
 			if (!this._pViewSettingsDialog) {
 				this._pViewSettingsDialog = Fragment.load({
 					id: this.getView().getId(),
-					name: "sap.ui.demo.orderbrowser.view.ViewSettingsDialog",
+					name: "int.training.rezervation.view.ViewSettingsDialog",
 					controller: this
 				}).then(function(oDialog){
 					// connect dialog to the root view of this component (models, lifecycle)

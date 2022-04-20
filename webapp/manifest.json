@@ -1,7 +1,7 @@
 {
 	"_version": "1.3.0",
 	"sap.app": {
-		"id": "sap.ui.demo.orderbrowser",
+		"id": "int.training.rezervation",
 		"type": "application",
 		"resources": "resources.json",
 		"i18n": "i18n/i18n.properties",
@@ -47,13 +47,13 @@
 	},
 	"sap.ui5": {
 		"rootView": {
-			"viewName": "sap.ui.demo.orderbrowser.view.App",
+			"viewName": "int.training.rezervation.view.App",
 			"type": "XML",
 			"async": true,
 			"id": "app"
 		},
 		"dependencies": {
-			"minUI5Version": "1.98.0",
+			"minUI5Version": "1.71.40",
 			"libs": {
 				"sap.ui.core": {},
 				"sap.m": {},
@@ -68,7 +68,7 @@
 			"i18n": {
 				"type": "sap.ui.model.resource.ResourceModel",
 				"settings": {
-					"bundleName": "sap.ui.demo.orderbrowser.i18n.i18n",
+					"bundleName": "int.training.rezervation.i18n.i18n",
 					"supportedLocales": [
 						""
 					],
@@ -85,7 +85,7 @@
 				"routerClass": "sap.f.routing.Router",
 				"type": "View",
 				"viewType": "XML",
-				"path": "sap.ui.demo.orderbrowser.view",
+				"path": "int.training.rezervation.view",
 				"controlId": "layout",
 				"controlAggregation": "beginColumnPages",
 				"bypassed": {

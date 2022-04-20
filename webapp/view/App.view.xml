@@ -1,5 +1,5 @@
 <mvc:View
-	controllerName="sap.ui.demo.orderbrowser.controller.App"
+	controllerName="int.training.rezervation.controller.App"
 	displayBlock="true"
 	height="100%"
 	xmlns="sap.m"

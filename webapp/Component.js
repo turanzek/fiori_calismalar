@@ -7,7 +7,7 @@ sap.ui.define([
 ], function (UIComponent, Device, models, ListSelector, ErrorHandler) {
 	"use strict";
 
-	return UIComponent.extend("sap.ui.demo.orderbrowser.Component", {
+	return UIComponent.extend("int.training.rezervation.Component", {
 
 		metadata : {
 			manifest : "json"

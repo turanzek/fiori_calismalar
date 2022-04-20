@@ -1,5 +1,5 @@
 <mvc:View
-	controllerName="sap.ui.demo.orderbrowser.controller.Detail"
+	controllerName="int.training.rezervation.controller.Detail"
 	xmlns="sap.m"
 	xmlns:semantic="sap.f.semantic"
 	xmlns:mvc="sap.ui.core.mvc"
@@ -84,7 +84,7 @@
 					id="lineItemsList"
 					class="sapUiSmallMarginTop"
 					width="auto"
-					items="{Order_Details}"
+					items="{ToRezervation}"
 					updateFinished=".onListUpdateFinished"
 					noDataText="{i18n>detailLineItemTableNoDataText}"
 					busyIndicatorDelay="{detailView>/lineItemTableDelay}">
@@ -122,7 +122,7 @@
 						<ColumnListItem>
 							<cells>
 								<ObjectIdentifier
-									title="{Product/ProductName}"
+									title="{Name}"
 									text="{ProductID}"/>
 								<ObjectNumber
 									number="{

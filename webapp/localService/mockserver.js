@@ -7,7 +7,7 @@ sap.ui.define([
 	"use strict";
 
 	var oMockServer,
-		_sAppPath = "sap/ui/demo/orderbrowser/",
+		_sAppPath = "int/training/rezervation/",
 		_sJsonFilesPath = _sAppPath + "localService/mockdata";
 
 	var oMockServerInterface = {

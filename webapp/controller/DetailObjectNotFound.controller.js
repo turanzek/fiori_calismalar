@@ -3,5 +3,5 @@ sap.ui.define([
 ], function (BaseController) {
 	"use strict";
 
-	return BaseController.extend("sap.ui.demo.orderbrowser.controller.DetailObjectNotFound", {});
+	return BaseController.extend("int.training.rezervation.controller.DetailObjectNotFound", {});
 });

@@ -1,5 +1,5 @@
 <mvc:View
-	controllerName="sap.ui.demo.orderbrowser.controller.Master"
+	controllerName="int.training.rezervation.controller.Master"
 	xmlns="sap.m"
 	xmlns:mvc="sap.ui.core.mvc"
 	xmlns:semantic="sap.f.semantic">

@@ -3,7 +3,7 @@ sap.ui.define([
 ], function (BaseController) {
 	"use strict";
 
-	return BaseController.extend("sap.ui.demo.orderbrowser.controller.NotFound", {
+	return BaseController.extend("int.training.rezervation.controller.NotFound", {
 
 		onInit: function () {
 			this.getRouter().getTarget("notFound").attachDisplay(this._onNotFoundDisplayed, this);

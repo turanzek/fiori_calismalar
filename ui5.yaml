@@ -36,7 +36,7 @@ builder:
       ui5:
         language: TR
         package:  ZZEK
-        bspContainer: ZEGT_CAR_RESERVATION
+        bspContainer: ZINT_TRAIN_REZE
         bspContainerText: Car Reservation
         calculateApplicationIndex: true 
         transportNo: DERK900036  

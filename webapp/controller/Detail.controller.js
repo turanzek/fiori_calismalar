@@ -13,7 +13,7 @@ sap.ui.define([
 		var fItemTotal = oCurrentContext.getObject().Quantity * oCurrentContext.getObject().UnitPrice;
 		return fPreviousTotal + fItemTotal;
 	}
-	return BaseController.extend("sap.ui.demo.orderbrowser.controller.Detail", {
+	return BaseController.extend("int.training.rezervation.controller.Detail", {
 
 		formatter: formatter,
 
@@ -111,8 +111,8 @@ sap.ui.define([
 				this.getModel("appView").setProperty("/layout", "TwoColumnsMidExpanded");
 			}
 			this.getModel().metadataLoaded().then( function() {
-				var sObjectPath = this.getModel().createKey("Orders", {
-					OrderID :  this._sObjectId
+				var sObjectPath = this.getModel().createKey("VehicleSet", {
+					Plate :  this._sObjectId
 				});
 				this._bindView("/" + sObjectPath);
 			}.bind(this));
@@ -146,7 +146,7 @@ sap.ui.define([
 
 			this.getView().bindElement({
 				path : sObjectPath,
-				parameters: {""
+				parameters: {
 					expand: "Customer,Order_Details/Product,Employee"
 				},
 				events: {
