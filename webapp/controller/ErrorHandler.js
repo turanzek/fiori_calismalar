@@ -14,7 +14,7 @@ sap.ui.define([
 		 * @alias sap.ui.demo.orderbrowser.controller.ErrorHandler
 		 */
 		constructor : function (oComponent) {
-			this._oResourceBundle = oComponent.getModel("i18n").getResourceBundle();
+			this._oResourceBundle = oComponent.getModel("i18n").getResourceBundle()
 			this._oComponent = oComponent;
 			this._oModel = oComponent.getModel();
 			this._bMessageOpen = false;
